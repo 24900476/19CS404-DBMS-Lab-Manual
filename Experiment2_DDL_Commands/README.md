@@ -105,19 +105,32 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
--- Paste Question 1 here
 
-```sql
--- Paste your SQL code below for Question 1
+Create a table named Members with the following columns:
+
+MemberID as INTEGER
+MemberName as TEXT
+JoinDate as DATE
+
+```
+create table Members (
+MemberID INTEGER ,
+MemberName TEXT,
+JoinDate DATE);
+
+
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1661" height="383" alt="Screenshot 2025-11-20 212025" src="https://github.com/user-attachments/assets/42d4c038-b681-4049-9e0d-d4456d7b17c6" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+Write a SQL query to Rename the "city" column to "location" in the "customer" table.
+
+
 
 ```sql
 -- Paste your SQL code below for Question 2
